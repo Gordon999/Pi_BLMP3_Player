@@ -2,4 +2,4 @@
 
 ## Schematic
 
-![screenshot](Shematic01.jpg)
+![Schematic](Schematic01.jpg)
