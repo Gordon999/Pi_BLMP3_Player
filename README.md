@@ -1,9 +1,18 @@
 # Pi_BLMP3_Player
 
-This version uses 20 buttonss to select upto 100 tracks, using A-J and 1-10, eg A5. It will also display with 20 leds which track is playing.
+This version will also display with 20 leds which track is playing.
 
-It will also play continous by holding down B for 5 seconds. A will choose previous track , C next track, D skip 10 tracks forward and E skip 10 tracks back.
-It will display the track being played using the leds. It will play more than 100 tracks in this mode but won't display above 100. Press STOP for 5 seconds to exit this mode.
+10 button switches for letters A to J, 10 button switches for numbers 1 to 10. 3 buttons required for STOP, SHUFFLE and SHUTDOWN.
+
+A coin slot switch also connects between gpio and gnd. (can be disabled in the code)
+
+Select a song (upto 100), stored in home/pi/Music, by choosing a LETTER and then a NUMBER, eg A3.
+
+Can be operated in Continuous Play Mode. Press Button B for 5 seconds to operate. It will play tracks until STOP pressed for 5 seconds. In Continuous Play Mode: - A will play previous track, C will play next track, D will skip 10 tracks back, E will skip 10 tracks forward.
+
+Continuous Play Mode can play more than 100 songs. It can shuffle the songs, settable in the code.
+
+To just use Continuous Play Mode you could just fit buttons A,B,C,D,E, STOP and SHUTDOWN.
 
 ## Schematic
 
