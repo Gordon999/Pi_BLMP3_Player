@@ -6,4 +6,4 @@
 ![Schematic](Schematic02.jpg)
 
 ## Showing Playing B3
-![Prototype](Prototype01.jpg)
+![Prototype](prototype001.jpg)
